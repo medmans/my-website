@@ -1,0 +1,106 @@
+.main {
+    background-color: #ebe5e5;
+    height: 100vh;
+    font-family: 'Montserrat';
+
+}
+
+
+.container.profile {
+    align-self: center;
+    height: 600px;
+    width: 700px;
+    justify-self: center;
+    vertical-align: center;
+    background-color: white;
+}
+
+.profile .header {
+    align-items: center;
+}
+
+img.me {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+img.degree {
+    height: 50px;
+    width: 50px;
+}
+
+ul.domains>li {
+    color: #00bcd4;
+}
+
+div.education {
+    line-height: 50px;
+    gap: 10px;
+    color: #C33B2C
+}
+
+div.certification {
+    margin-bottom: 20px;
+    
+}
+div.certification>img {
+    height: 90px;
+    width: 90px;
+
+}
+
+.svg-icon {
+    width: 42px;
+    height: 42px;
+    background-image: url("../assets/icons.svg");
+}
+
+.contact{
+    align-items: center;
+}
+
+.social .button {
+    width: 23px;
+    height: 24px;
+    background-color: transparent;
+    background-size: cover;
+    display: inline-block;
+    font-size: 0;
+    opacity: .4;
+    transition: ease-in-out .25s;
+    margin-right: .5rem;
+    color: #ADC3BF;
+}
+
+.twitter.svg-icon {
+    background-position: -48px;
+}
+
+.github.svg-icon {
+    background-position: -71px;
+}
+
+.stackoverflow.svg-icon {
+    background-position: -95px;
+}
+
+.linkedin.svg-icon {
+    background-position: -119px;
+}
+
+.blog.svg-icon {
+    background-position: -146px;
+}
+
+.email.svg-icon {
+    background-position: -24px;
+}
+
+.social .button:hover,
+.social .button:active,
+.social .button:focus {
+    opacity: 1;
+}
