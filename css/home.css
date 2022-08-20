@@ -8,11 +8,10 @@
 
 .container.profile {
     align-self: center;
-    height: 600px;
     width: 700px;
     justify-self: center;
-    vertical-align: center;
     background-color: white;
+    padding-bottom: 40px;
 }
 
 .profile .header {
@@ -37,6 +36,7 @@ ul.domains>li {
 }
 
 div.education {
+    flex-direction: row;
     line-height: 50px;
     gap: 10px;
     color: #C33B2C
@@ -103,4 +103,20 @@ div.certification>img {
 .social .button:active,
 .social .button:focus {
     opacity: 1;
+}
+
+@media (max-width: 550px) { 
+
+    .profile .header {
+        align-items: center;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    div.education {
+        flex-direction: column;
+        align-items: center;
+        line-height: 18px;
+        text-align: center;
+    }
 }
