@@ -1,19 +1,24 @@
 .main {
-    background-color: #ebe5e5;
     height: 100vh;
     font-family: 'Montserrat';
-
 }
 
 
-.container.profile {
+.profile {
     align-self: center;
-    width: 700px;
+    max-width: 700px;
     justify-self: center;
-    background-color: white;
     padding-bottom: 40px;
+    margin: auto;
 }
 
+.profile.light{
+    background-color: white;
+}
+
+.profile.dark {
+    background-color: #181818;
+}
 .profile .header {
     align-items: center;
 }
@@ -44,8 +49,9 @@ div.education {
 
 div.certification {
     margin-bottom: 20px;
-    
+
 }
+
 div.certification>img {
     height: 90px;
     width: 90px;
@@ -58,7 +64,7 @@ div.certification>img {
     background-image: url("../assets/icons.svg");
 }
 
-.contact{
+.contact {
     align-items: center;
 }
 
@@ -105,7 +111,25 @@ div.certification>img {
     opacity: 1;
 }
 
-@media (max-width: 550px) { 
+.switch{
+    justify-content: flex-end;
+}
+
+#lightSwitch {
+    transform: scale(1.8);
+}
+
+.bg-light {
+    border-radius: 3px;
+    color: black;
+}
+
+.bg-dark {
+    box-shadow: 10px 5px 5px rgba(246, 255, 219, 0.5);
+    color: white;
+}
+
+@media (max-width: 550px) {
 
     .profile .header {
         align-items: center;
