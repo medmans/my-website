@@ -12,13 +12,14 @@
     margin: auto;
 }
 
-.profile.light{
+.profile.light {
     background-color: white;
 }
 
 .profile.dark {
     background-color: #181818;
 }
+
 .profile .header {
     align-items: center;
 }
@@ -105,13 +106,17 @@ div.certification>img {
     background-position: -24px;
 }
 
+.medium.svg-icon {
+    background-image: url("/assets/medium.svg");
+}
+
 .social .button:hover,
 .social .button:active,
 .social .button:focus {
     opacity: 1;
 }
 
-.switch{
+.switch {
     justify-content: flex-end;
 }
 
